@@ -1,0 +1,29 @@
+.filterContainer {
+  display: flex;
+  gap: 2%;
+  padding: 1% 2.5%;
+}
+
+.filterContainer button {
+  background-color: #205fd0;
+  border: 0.2em solid #205fd0;
+  border-radius: 4px;
+  padding: 1% 1.3%;
+  font-weight: 700;
+  width: max-content;
+  color: #fff;
+}
+
+.filterContainer button:hover {
+  background-color: #fff;
+  color: #205fd0;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .filterContainer {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}

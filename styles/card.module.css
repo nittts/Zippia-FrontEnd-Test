@@ -1,0 +1,98 @@
+.card {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-top: 0.1em solid gray;
+  border-bottom: 0.1em solid gray;
+  font-family: "Roboto", sans-serif;
+  width: 97%;
+  position: relative;
+}
+
+.card:hover .cardTitle {
+  color: #205fd0;
+}
+
+.card > p {
+  width: 20%;
+  font-size: 0.9em;
+  color: rgb(141, 141, 141);
+}
+
+.cardJobInfo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.5%;
+  flex-flow: row nowrap;
+}
+
+.cardJobInfo > div {
+  display: flex;
+  padding: 1% 0;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+}
+
+.cardTitle {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
+  font-family: "Roboto", sans-serif;
+}
+
+.cardCompany {
+  margin: 0;
+  padding: 0;
+  font-size: 0.85em;
+  font-family: "Roboto", sans-serif;
+  color: rgb(141, 141, 141);
+}
+
+.cardDesc {
+  height: 8rem;
+  overflow-y: hidden;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.open {
+  height: 20rem;
+  overflow-y: scroll;
+}
+
+.openBtn {
+  position: absolute;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #dfdfdf;
+  top: 2.5%;
+  right: 2.5%;
+}
+
+.openBtn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #3b7efa;
+}
+
+.cardBtn {
+  position: absolute;
+  background-color: #205fd0;
+  border: 0.2em solid #205fd0;
+  border-radius: 4px;
+  padding: 0.5% 0.8%;
+  font-weight: 700;
+  color: #fff;
+  bottom: 5.5%;
+  left: 20%;
+}
+
+.cardBtn:hover {
+  background-color: #3b7efa;
+  border-color: #3b7efa;
+  cursor: pointer;
+}
